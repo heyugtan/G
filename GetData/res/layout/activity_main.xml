@@ -6,10 +6,12 @@
     android:orientation="vertical" >
 
     <EditText
+        android:id="@+id/et_url"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:hint="参数"
+        android:hint="网络地址"
         android:paddingLeft="10dp"
+        android:inputType="textUri"
         android:background="#FFFFFF"
         android:textSize="16sp" />
     
